@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Issued Books Status</h2>
+
+<table border="1" style="margin: auto; border-collapse: collapse; width: 80%;">
+    <tr>
+        <th>Book ID</th>
+        <th>Book Title</th>
+        <th>Issued To</th>
+        <th>Issue Date</th>
+        <th>Status</th>
+    </tr>
+    <tr>
+        <td>101</td>
+        <td>Harry Potter</td>
+        <td>Customer001</td>
+        <td>2025-04-22</td>
+        <td>Issued</td>
+    </tr>
+    <tr>
+        <td>102</td>
+        <td>Rich Dad Poor Dad</td>
+        <td>Customer002</td>
+        <td>2025-04-20</td>
+        <td>Issued</td>
+    </tr>
+</table>
+{% endblock %}

@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Hello, Customer!</h2>
+<div class="center-buttons">
+    <a href="{{ url_for('search_book') }}" class="btn">Search Book</a>
+    <a href="{{ url_for('issue_book') }}" class="btn">Issue Book</a>
+    <a href="{{ url_for('return_book') }}" class="btn">Return Book</a>
+</div>
+{% endblock %}
