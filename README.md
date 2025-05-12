@@ -1,3 +1,5 @@
-pip install -r requirements.txt
+BACKEND:
+mvn spring-boot:run
 
-python app.py
+FRONTEND:
+npm run dev
